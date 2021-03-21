@@ -1,0 +1,36 @@
+.Card{
+    display: flex;
+    column-gap: 25px;
+    background-color: rgba(128, 128, 128, 0.048);
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1px;
+    padding-bottom: 5px;
+    
+}
+
+.Card #name {
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 120px;
+    text-align: left;
+}
+
+.Card #information {
+    font-size: large;
+    font-weight: bold;
+}
+
+.Card #deleteCard p {
+    color: white;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 999999px;
+    align-items: center;
+    margin: auto;
+}

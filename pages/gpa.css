@@ -1,0 +1,73 @@
+.titleText{
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 1px solid rgba(146, 145, 145, 0.692);   
+}
+.inputForm{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.inputGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputGrid input,select,button{
+    margin-left: 1%;
+}
+.inputGrid select{
+    border-radius: 9999999px;
+}
+.inputGrid #courseName,#courseID{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.inputGrid button{
+    background-color: rgb(49, 131, 49);
+    color: whitesmoke;
+    width: 60px;
+    border-radius: 9999px;
+}
+.tableCourse{
+    padding-top: 10px;
+    display: block;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableCourse #tableTitle{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid rgba(99, 96, 96, 0.342);
+}
+.addCourseCard{
+    display: block;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.gpaResult {
+    display: block;
+    padding-top: 2%;
+    max-width: 30%;
+    justify-content: center;
+    align-items: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gpaResult p {
+    background-color: rgba(158, 255, 93, 0.151);
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+}
